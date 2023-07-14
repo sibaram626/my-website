@@ -2,21 +2,235 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/user.png">
+
+    <title>My Portfolio Website</title>
+    <!-- Link To CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ 
 </head>
 <body>
-    <!-- navbar -->
-    <nav>
-        <ul id="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo"><h1>SIBARAM SAHU</h1></a>
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
         </ul>
-    </nav>
-    <h1>Welcome to my website</h1>
+    </header>
+    <!-- Home -->
+ 
+    <section class="home" id="home">
+        <div class="social">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-dribbble' ></i></a>
+            <a href="#"><i class='bx bxl-behance' ></i></a>
+        </div>
+        
+        <div class="home-img">
+            <div class="container">
+                <div class="shape"></div>
+              </div>
+              <!-- <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?size=626&ext=jpg" alt=""> -->
+
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Sibaram Sahu</h1>
+            <h2>A Full Stack Web Developer</h2>
+            <p>Your website deserves a font that reflects your brand identity and personality.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+ 
+        <div class="scroll-down">
+            <a href="#about">
+                <i class='bx bx-mouse' ></i>
+                <span>Scroll Down</span>
+                <i class='bx bxs-down-arrow-alt' ></i>
+            </a>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+              
+                <img src="Newfolder/IMG_20230610_040856_817.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>Hi, I’m Sibaram, a full stack web developer with over 2 years of experience in building web applications using various technologies. I have expertise in HTML, CSS, JavaScript, React, Node.js, MongoDB, and AWS. I enjoy creating user-friendly and responsive websites that are fast, secure, and scalable. I’m always eager to learn new skills and tools to improve my development process. I’m looking for a challenging and rewarding position where I can apply my full stack skills and contribute to the success of the project.!</p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user' ></i>
+                        <span>Sibaram Sahu</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone' ></i>
+                        <span>9090976619</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>sibaram626@gmail.com</span>
+                    </div>
+                </div>
+                <a href="Newfolder/Sibaram sahu.docx.pdf" class="btn">Download Cv</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 -->
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>94%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <!-- Box 2 -->
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>74%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <!-- Box 4 -->
+                <div class="bars-box">
+                    <h3>React</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="Newfolder\shiva.jpg">
+            </div>
+        </div>
+ 
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-content">
+            <!-- Box 1 -->
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web <br>Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="services-box">
+                <i class='bx bx-server' ></i>
+                <h3>Backend <br>Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Box 3 -->
+            <div class="services-box">
+                <i class='bx bx-brush' ></i>
+                <h3>UI/UX <br>Design</h3>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>Our Recent Work</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="https://img.freepik.com/free-vector/flat-design-ui-ux-landing-page_52683-72187.jpg?size=626&ext=jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="https://img.freepik.com/free-photo/web-design_53876-167070.jpg?size=626&ext=jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="https://img.freepik.com/free-photo/web-design-concept-with-drawings_1134-77.jpg?size=626&ext=jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="https://img.freepik.com/free-vector/hand-drawn-cms-landing-page_23-2148817999.jpg?size=626&ext=jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="https://img.freepik.com/free-vector/design-team-cartoon-landing-page-with-designers_107791-11253.jpg?size=626&ext=jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="https://img.freepik.com/free-vector/web-design-landing-page-template_52683-18357.jpg?size=626&ext=jpg" alt="">
+            </div>
+            
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Us</span>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Sibaram</h2>
+        <div class="footer-social">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+           
+        </div>
+ 
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Sibaram Sahu All Right Reserved.</p>
+    </div>
+ 
+ 
+ 
+    <!-- Link To JS -->
+    <script src="main.js"></script>
 </body>
 </html>
