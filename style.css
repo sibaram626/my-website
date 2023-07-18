@@ -57,18 +57,25 @@ header.shadow {
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--text-color);
+  padding-inline-start: 12px ;
 }
 .navbar {
   display: flex;
+  
+  
 }
 .navbar a {
   font-size: 1rem;
-  padding: 10px 20px;
-  color: var(--text-color);
+  padding: 7px 10px;
+  color: black;
   font-weight: 500;
+  
 }
 .navbar a:hover {
-  color: var(--hover);
+  color: white;
+  border: #fff 1px solid;
+  border-radius: 10px;
+  
 }
 #menu-icon {
   font-size: 24px;
@@ -335,6 +342,8 @@ form textarea {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
+  border:#4a00e0 10px solid;
+  border-radius: 6px;
 }
 .contact-button:hover {
   background: var(--hover);
@@ -490,7 +499,7 @@ form textarea {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
  	background: url(Newfolder/IMG_20230710_201705_498.jpg);
   animation: morph 8s ease-in-out infinite;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   height: 400px;
@@ -514,5 +523,6 @@ form textarea {
 	100% {
 		border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
 		/* background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%); */
-	} 
+
+  } 
 }
