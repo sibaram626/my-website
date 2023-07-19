@@ -36,6 +36,10 @@ body {
   color: var(--bg-color);
   background: var(--main-color);
 }
+.shiva{
+  height: 80px;
+  width: 80px;
+}
 header {
   position: fixed;
   width: 100%;
@@ -224,6 +228,10 @@ header.shadow {
 span {
   font-size: 1.1rem;
   font-weight: 500;
+  
+}
+.bars-box h3,a{
+  color: black;
 }
 .light-bar {
   position: absolute;
@@ -326,6 +334,12 @@ textarea {
   margin-bottom: 1rem;
   color: var(--text-color);
 }
+.inp:hover{
+  color: rgb(10, 1, 1);
+  border: #0c0a0a 1px solid;
+  border-radius: 10px;
+}
+
 form input::placeholder,
 textarea::placeholder {
   color: var(--text-color);
@@ -336,17 +350,19 @@ form textarea {
 }
 .contact-button {
   width: 80px;
+  height: 38px;
   cursor: pointer;
   background: var(--main-color);
-  color: #fff;
+  color: #e0d9d9;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border:#4a00e0 10px solid;
-  border-radius: 6px;
+  /* border:#4a00e0 10px solid; */
+  border-radius: 5px;
 }
 .contact-button:hover {
   background: var(--hover);
+  color: rgb(250, 247, 247);
 }
 .footer {
   display: grid;
@@ -364,6 +380,11 @@ form textarea {
   color: #fff;
   font-size: 22px;
   padding: 10px;
+}
+.footer-social a:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  
 }
 .copyright {
   padding: 20px;
