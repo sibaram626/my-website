@@ -28,6 +28,7 @@ body.active {
   --bg-color: #0f0c27;
 }
 body {
+
   background: var(--bg-color);
   background-color: rgb(155, 155, 229);
   color: var(--text-color);
@@ -68,6 +69,7 @@ header.shadow {
   
   
 }
+
 .navbar a {
   font-size: 1rem;
   padding: 7px 10px;
@@ -75,11 +77,11 @@ header.shadow {
   font-weight: 500;
   
 }
+
 .navbar a:hover {
   color: white;
-  border: #fff 1px solid;
-  border-radius: 10px;
-  
+   border: #fff 1px solid;
+  border-radius: 10px; 
 }
 #menu-icon {
   font-size: 24px;
@@ -501,6 +503,8 @@ form textarea {
  
 
 :root {
+  /* background-image: url(https://www.youtube.com/watch?v=xw3TjdpOeHU); */
+  background-image: url("https://www.youtube.com/watch?v=xw3TjdpOeHU");
 	--background: #005;
 	--primary: #88D5BF;
 	--secondary: #5D6BF8;
@@ -546,4 +550,14 @@ form textarea {
 		/* background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%); */
 
   } 
+
+
+
+
+  
 }
+
+
+
+
+
